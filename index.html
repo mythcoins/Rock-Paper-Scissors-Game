@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>Rock, Paper and Scissors</header>
+
+    <div class="score-board">
+        <div id="user-lable">User</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+        <div id="comp-lable">Comp</div>
+    </div>
+
+    <div class="result">
+        Paper Covers Rock. You Won!
+    </div>
+
+    <div class="selections">
+        <button class="selection" data-selection="rock" id="r"><img src="/assests/rock.png" alt="rock"></button>
+        <button class="selection" data-selection="paper" id="p"><img src="/assests/scissors.png" alt="paper"></button>
+        <button class="selection" data-selection="scissors" id="s"><img src="/assests/paper.png" alt="scissors"></button>
+    </div>
+
+    <div class="action-msg">
+        <div>Make Your Move.</div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: lavender;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 200%;
+    padding: 50px;
+}
+
+.score-board {
+    text-align: center;
+    font-size: larger;
+    border: 4px solid black;
+    margin: 40px;
+    padding: 10px;
+}
+
+.selections {
+    text-align: center;
+    margin : 50px 50px;
+}
+
+.action-msg {
+    text-align: center;
+    font-size: larger;
+}
+
+.result {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
